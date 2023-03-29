@@ -1,5 +1,5 @@
 const mongoose = require('mongoose');
-mongoose.connect(`mongodb://127.0.0.1/issueTracker`);
+mongoose.connect(`mongodb+srv://shoaibakhtar9430:Oi4Chtfh75FWCQGe@cluster0.mhs8ysz.mongodb.net/?retryWrites=true&w=majority`);
 
 const db = mongoose.connection;
 
